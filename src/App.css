@@ -1,3 +1,46 @@
+#container {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first button{
+  height:50px;
+  width: 50px;
+  border-color: brown;
+  border-radius: 8px 0px 0px 8px;
+  background-color: white;
+  font-size:xx-large;
+  color: brown;
+  text-align: center;
+}
+
+#second input{
+  height:44px;
+  width: 44px;
+  border-color: brown;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: rgb(243, 197, 197);
+  font-size:large;
+  color: brown;
+  text-align: center;
+}
+
+#third button{
+  height:50px;
+  width: 50px;
+  border-color: brown;
+  border-radius: 0px 8px 8px 0px;
+  background-color: brown;
+  font-size:xx-large;
+  color: white;
+  text-align: center;
+}
+
+
 .App {
   text-align: center;
 }
